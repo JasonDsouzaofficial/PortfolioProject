@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Jason D'souza Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#internships">Internships</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='images/jason.jpg'/>
+        <div class='herosectionDetails'>
+          <h1>Jason D'souza</h1>
+          <h3>Pursing I.T Engineering in TSEC</h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>What I Do...</h1>
+        <p>Currently pursuing I.T. engineering in TSEC & also a senior division naval NCC cadet. Always ready to take charge and lead, hardworking, ready-to-learn, can work under pressure, highly organized and systematic way of working. Eager to explore new fields of interest. Skilled in public speaking, drawing, anchoring, drama, acting and sports. Passionate about defence, automobile and space field.</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='./images/html.svg'>
+          <img title='CSS' src='./images/css.svg'>
+          <img title='Javascript' src='./images/javascript.svg'>
+          <img title='Java' src='./images/java.svg'>
+          <img title='C' src='./images/C.svg'>
+          <img title='Python' src='./images/python.svg'>
+          <img title='Word' src='./images/word.svg'>
+          <img title='Excel' src='./images/excel.svg'>
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='./images/arduino.svg'/>
+            <div class='projectDescription'>
+              <h4>Arduino Board Based Project</h4>
+              <p>Total Plant Health and Environment Monitoring System.</p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='./images/question.svg'/>
+            <div class='projectDescription'>
+              <h4>Upcoming Project</h4>
+              <p>Coming Soon</p>
+            </div>
+            </div>
+            </div>
+          </section>
+        <section class='Internships' id='Internships'>
+        <div class='internships' id='internships'>
+          <h1 class='cardHeading'>Internships</h1>
+          <div class='InternshipsContainer'>
+            <img src='./images/NGO.svg'/>
+            <div class='internshipDescription'>
+              <h4>NGO</h4>
+              <p>Fundraising Volunteer.</p>
+            </div>
+          </div>
+          <div class='InternshipsContainer'>
+            <img src='./images/FS.svg'/>
+            <div class='internshipsDescription'>
+              <h4>Financial Services</h4>
+              <p></p>
+            </div>
+            </div>
+          </section>
+          </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
